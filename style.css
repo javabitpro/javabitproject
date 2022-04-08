@@ -21,7 +21,7 @@ body {
 
 .flex-item-1 {
   flex: 0;
-  background: darkolivegreen;
+  background: #1d1e22;
   flex-direction: row;
   align-items: center;
   justify-content: center;
@@ -48,7 +48,7 @@ body {
 }
 
 [class*="fi-2-column-"] {
-  border-right: 1px solid yellowgreen;
+  border-right: 1px solid white;
   background: #ddd;
   flex: auto;
   width: 25%;
@@ -66,7 +66,7 @@ iframe {
 }
 
 .editor {
-  background: #272822;
+  background: #1d1e22;
 }
 
 @media only screen and (max-width: 1016px) {
@@ -110,7 +110,7 @@ nav * {
 }
 
 nav {
-  background: darkolivegreen;
+  background: #060606;
   text-align: center;
   position: relative;
 }
@@ -132,15 +132,15 @@ nav ul li {
 
 nav ul li:hover,
 .active {
-  background: yellowgreen;
+  background: #36373a;
   cursor: pointer;
-  border-left: 1px solid wheat;
-  border-right: 1px solid wheat;
+  border-left: 1px solid #36373a;
+  border-right: 1px solid #36373a;
 }
 
 .active {
   /* border-radius: 100px; */
-  background: yellowgreen;
+  background: #1d1e22;
 }
 
 .active > a {
@@ -150,7 +150,7 @@ nav ul li:hover,
 
 nav ul li a {
   text-transform: uppercase;
-  color: wheat;
+  color: white;
   text-decoration: none;
   padding: 17px 20px;
 }
@@ -164,7 +164,7 @@ nav ul li ul li {
 
 nav ul li ul li:hover {
   border: none;
-  background: #777;
+  background: #060606;
 }
 
 nav ul li:hover ul li {
@@ -175,18 +175,18 @@ nav ul li:hover ul li {
   margin-right: auto;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
     1px 1px 0 #000;
-  background: darkolivegreen;
+  background: #060606;
   border: none !important;
   font-weight: bolder;
   font-size: 26px;
 }
 
 .titleNav > a {
-  color: yellowgreen;
+  color: white;
 }
 
 .titleNav:hover {
-  background: darkolivegreen;
+  background: #36373a;
 }
 
 .optionsNav {
@@ -206,5 +206,5 @@ nav ul li:hover ul li {
 }
 
 .hbmNavIcon:hover {
-  background: darkolivegreen;
+  background: #060606;
 }
